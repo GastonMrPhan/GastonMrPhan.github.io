@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Startup</title>
+    <title>Guess Who</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,16 +16,26 @@
   </head>
   <body>
     <div class="container d-flex align-items-center h-100">
-      <div class="row">
-        <header class="text-center col-12">
-          <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
+      <div class="row text-center col-12">
+        <header class="text-center col-12" >
+          <h1 class="text-uppercase"><strong>List of character</strong></h1>
+
         </header>
+        <table class="container" id="azerty">
+
+        </table>
         <div class="buffer col-12"></div>
         <section class="text-center col-12">
+          <button class="btn btn-primary btn-xl" onclick="random_pick()">Random pick</button>
+
           <hr>
-          <button class="btn btn-primary btn-xl">Find out more</button>
+
+          <span id="span_txt" style="display:none">Bonjour blabla</span>
+
         </section>
+
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
